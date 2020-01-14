@@ -17,6 +17,7 @@ import {
     Easing,
 } from 'react-native';
 import SimpleAnimation from './components/SimpleAnimation';
+import MultipleAnimations from './components/MultipleAnimations';
 
 class App extends Component<Props> {
 
@@ -27,7 +28,7 @@ class App extends Component<Props> {
     render() {
         return (
             <>
-                <SimpleAnimation/>
+                <MultipleAnimations/>
             </>
         );
     }
