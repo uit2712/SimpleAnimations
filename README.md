@@ -18,4 +18,10 @@ Components are important in programming React Native. An mobile application is c
 <b>- Image</b><br>
 <b>- View</b><br>
 <b>- Text</b><br>
-And React Native splits clearly between normal components (such as <b>Text, Image, View</b>) and animated components (such as <b>Animated.Text, Animated.Image, Animated.View</b>). This means that animated components are in <b>Animated</b>
+And React Native splits clearly between normal components (such as <b>Text, Image, View</b>) and animated components (such as <b>Animated.Text, Animated.Image, Animated.View</b>). This means that animated components are in <b>Animated</b>.
+
+```javascript
+import {
+	Animated
+} from 'react-native';
+```
