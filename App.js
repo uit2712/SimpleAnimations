@@ -7,17 +7,16 @@
  */
 
 import React, { Component } from 'react';
-import {
-    StyleSheet,
-    ScrollView,
-    View,
-    Text,
-    Dimensions,
-    Animated,
-    Easing,
-} from 'react-native';
 import SimpleAnimation from './components/SimpleAnimation';
 import MultipleAnimations from './components/MultipleAnimations';
+import RotateAnimations from './components/RotateAnimations';
+import ScaleAnimations from './components/ScaleAnimations';
+import OpacityAnimations from './components/OpacityAnimations';
+import ColorAnimations from './components/ColorAnimations';
+import ParallelAnimations from './components/ParallelAnimations';
+import SpringAnimations from './components/SpringAnimations';
+import SequenceAnimations from './components/SequenceAnimations';
+import StaggerAnimations from './components/StaggerAnimations';
 
 class App extends Component<Props> {
 
@@ -27,15 +26,9 @@ class App extends Component<Props> {
 
     render() {
         return (
-            <>
-                <MultipleAnimations/>
-            </>
+            <StaggerAnimations/>
         );
     }
 };
-
-const styles = StyleSheet.create({
-    
-});
 
 export default App;

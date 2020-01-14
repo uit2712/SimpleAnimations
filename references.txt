@@ -1,0 +1,3 @@
+https://code.tutsplus.com/tutorials/practical-animations-in-react-native--cms-27567
+https://code.tutsplus.com/tutorials/working-with-animations-in-react-native--cms-27328
+https://medium.com/react-native-training/react-native-animations-using-the-animated-api-ebe8e0669fae#...
