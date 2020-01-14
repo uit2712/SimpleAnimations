@@ -36,5 +36,5 @@ These are animation types:<br>
 <h2>4. Timing animation</h2>
 <h2>5. Spring animation</h2>
 <h2>6. Parallel animation</h2>
+<h2>7. Sequence animation</h2>
 <h2>8. Stagger animation</h2>
-<h2>4. Timing animation</h2>
