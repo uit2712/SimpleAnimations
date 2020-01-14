@@ -8,6 +8,7 @@
 <b>5. Spring animation</b><br>
 <b>6. Parallel animation</b><br>
 <b>7. Sequence animation</b><br>
+<b>8. Stagger animation</b><br>
 <hr>
 <h2>1. Introduce to animation in React Native</h2>
 Animation is an important part of user experience design. It serves as feedback on user actions, informs users of system status, and guides them on how to interact with the interface.<br>
@@ -25,3 +26,15 @@ import {
 	Animated
 } from 'react-native';
 ```
+<h2>3. Animation types</h2>
+These are animation types:<br>
+<b>- Timing animation</b>: The animation changes in a certain time.<br>
+<b>- Spring animation</b>: This is a scale animation with a bounce effect.<br>
+<b>- Parallel animation</b>: Start all the array of animations at a same time.<br>
+<b>- Sequence animation</b>: Start the array of animations in a sequence, one afters one.<br>
+<b>- Stagger animation</b>: Start the array of animations in a sequence, with a delay time when transition animation.<br>
+<h2>4. Timing animation</h2>
+<h2>5. Spring animation</h2>
+<h2>6. Parallel animation</h2>
+<h2>8. Stagger animation</h2>
+<h2>4. Timing animation</h2>
