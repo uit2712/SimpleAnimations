@@ -34,6 +34,18 @@ These are animation types:<br>
 <b>- Sequence animation</b>: Start the array of animations in a sequence, one afters one.<br>
 <b>- Stagger animation</b>: Start the array of animations in a sequence, with a delay time when transition animation.<br>
 <h2>4. Timing animation</h2>
+<b>a. Color animation</b><br>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/color-animation.gif" title="Color animation" width="150"/>
+<b>b. Multiple animation</b><br>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/multiple-animation.gif" title="Multiple animation" width="150"/>
+<b>c. Opacity animation</b><br>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/opacity-animation.gif" title="Opacity animation" width="150"/>
+<b>d. Rotate animation</b><br>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/rotate-animation.gif" title="Rotate animation" width="150"/>
+<b>e. Scale animation</b><br>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/scale-animation.gif" title="Scale animation" width="150"/>
+<b>f. Simple animation</b><br>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/simple-animation.gif" title="Simple animation" width="150"/>
 <h2>5. Spring animation</h2>
 <h2>6. Parallel animation</h2>
 <h2>7. Sequence animation</h2>
