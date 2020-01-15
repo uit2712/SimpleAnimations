@@ -47,6 +47,10 @@ These are animation types:<br>
 <b>f. Simple animation</b><br>
 <img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/simple-animation.gif" title="Simple animation" width="150"/>
 <h2>5. Spring animation</h2>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/spring-animation.gif" title="Spring animation" width="150"/>
 <h2>6. Parallel animation</h2>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/parallel-animation.gif" title="Parallel animation" width="150"/>
 <h2>7. Sequence animation</h2>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/sequence-animation.gif" title="Sequence animation" width="150"/>
 <h2>8. Stagger animation</h2>
+<img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/stagger-animation.gif" title="Stagger animation" width="150"/>
