@@ -9,6 +9,7 @@
 <b>6. Parallel animation</b><br>
 <b>7. Sequence animation</b><br>
 <b>8. Stagger animation</b><br>
+<b>9. References</b><br>
 <hr>
 <h2>1. Introduce to animation in React Native</h2>
 Animation is an important part of user experience design. It serves as feedback on user actions, informs users of system status, and guides them on how to interact with the interface.<br>
@@ -54,3 +55,7 @@ These are animation types:<br>
 <img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/sequence-animation.gif" title="Sequence animation" width="150"/>
 <h2>8. Stagger animation</h2>
 <img src="https://github.com/uit2712/SimpleAnimations/blob/master/demo/stagger-animation.gif" title="Stagger animation" width="150"/>
+<h2>9. References</h2>
+- <a href="https://code.tutsplus.com/tutorials/practical-animations-in-react-native--cms-27567">Practical animations in React Native</a><br>
+- <a href="https://code.tutsplus.com/tutorials/working-with-animations-in-react-native--cms-27328">Working with animations in React Native</a><br>
+- <a href="https://medium.com/react-native-training/react-native-animations-using-the-animated-api-ebe8e0669fae#...">React Native animations using the animated api</a><br>
