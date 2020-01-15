@@ -59,3 +59,4 @@ These are animation types:<br>
 - <a href="https://code.tutsplus.com/tutorials/practical-animations-in-react-native--cms-27567">Practical animations in React Native</a><br>
 - <a href="https://code.tutsplus.com/tutorials/working-with-animations-in-react-native--cms-27328">Working with animations in React Native</a><br>
 - <a href="https://medium.com/react-native-training/react-native-animations-using-the-animated-api-ebe8e0669fae#...">React Native animations using the animated api</a><br>
+- React Native Cook Book: Stan Bershadskiy, Crysfel Villa
