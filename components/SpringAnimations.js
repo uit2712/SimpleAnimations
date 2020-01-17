@@ -1,34 +1,48 @@
 import React, { Component } from 'react';
 import {
     Animated,
+    Easing,
     StyleSheet,
-    View,
-    Easing
+    View
 } from 'react-native';
 
-const loadingIcon = require('../images/loading-icon.png');
-const iconSize = { width: 100, height: 100 };
+const image = require('../images/loading-icon.png');
+const imageSize = { width: 100, height: 100 };
 
 class SpringAnimations extends Component<Props> {
     constructor(props: Props) {
         super(props);
 
+        this.state = {
+            timesLoop: this.props.loop,
+            currentTimesLoop: 0
+        };
+
         this.springValue = new Animated.Value(0);
     }
 
     componentDidMount() {
+        // start animation
         this.startAnimation();
     }
 
     startAnimation = () => {
+        if (this.state.timesLoop != null
+            && this.state.currentTimesLoop >= this.state.timesLoop)
+            return;
+
+        if (this.state.timesLoop != null)
+            this.setState({
+                currentTimesLoop: this.state.currentTimesLoop + 1
+            });
         this.springValue.setValue(0);
         Animated.spring(
             this.springValue,
             {
-                toValue: 1,
-                friction: 1
+                toValue: 1, // maximum animated value
+                friction: 0.5
             }
-        ).start(() => this.startAnimation());
+        ).start(() => this.startAnimation()); // loop
     }
 
     render() {
@@ -36,14 +50,14 @@ class SpringAnimations extends Component<Props> {
             <View style={styles.container}>
                 <Animated.Image
                     style={[
-                        styles.icon,
-                        {
+                        styles.image,
+                        { 
                             transform: [
                                 { scale: this.springValue }
                             ]
                         }
                     ]}
-                    source={loadingIcon}
+                    source={image}
                 />
             </View>
         )
@@ -56,10 +70,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flex: 1
     },
-    icon: {
-        width: iconSize.width,
-        height: iconSize.height
+    image: {
+        width: imageSize.width,
+        height: imageSize.height
     }
-})
+});
 
 export default SpringAnimations;

@@ -7,12 +7,13 @@
  */
 
 import React, { Component } from 'react';
-import SimpleAnimation from './components/SimpleAnimation';
-import MultipleAnimations from './components/MultipleAnimations';
+import {
+    Text
+} from 'react-native';
+import ColorAnimations from './components/ColorAnimations';
+import OpacityAnimations from './components/OpacityAnimations';
 import RotateAnimations from './components/RotateAnimations';
 import ScaleAnimations from './components/ScaleAnimations';
-import OpacityAnimations from './components/OpacityAnimations';
-import ColorAnimations from './components/ColorAnimations';
 import ParallelAnimations from './components/ParallelAnimations';
 import SpringAnimations from './components/SpringAnimations';
 import SequenceAnimations from './components/SequenceAnimations';
@@ -26,7 +27,7 @@ class App extends Component<Props> {
 
     render() {
         return (
-            <StaggerAnimations/>
+            <SequenceAnimations loop={null}/>
         );
     }
 };
