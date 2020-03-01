@@ -1,5 +1,10 @@
 # Simple Animations in React Native
 
+<h1>YOUTUBE VIDEOS:</h1>
+<h2>Part 1: https://youtu.be/9gQB0SHs9Qg</h2>
+<h2>Part 2: https://youtu.be/YyWr4MNMlns</h2>
+<h2>Part 3: https://youtu.be/2wekzf6mnbo</h2>
+
 <h2>Table of contents</h2>
 <b>1. Introduce to animation in React Native</b><br>
 <b>2. Supported animated components</b><br>
